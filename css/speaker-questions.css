@@ -1,0 +1,30 @@
+#sq_list {
+	padding: 1em 0 0 0;
+}
+#sq_list li {
+	background: #fff;
+	list-style: none;
+	padding: 1em 0;
+	margin: 0 1em;
+	border-bottom: 1px solid #cdcdcd;
+}
+#sq_list li .question-content {
+	padding-left: 1em;
+}
+#sq_list li .question-content strong {
+	font-size: 1.35em;
+}
+#sq_list li .dashicons {
+	font-size: 2.5em;
+	line-height: 1em;
+	margin: 0.5rem 1.5rem 2rem;
+	z-index: 100;
+	cursor: pointer;
+}
+#sq_list .ui-sortable-helper {
+	border: 2px solid #cdcdcd;
+}
+
+#confSpeakerQuestions {
+	margin-bottom: 3em;
+}
